@@ -1,5 +1,3 @@
-var base = document.getElementById('base');
-
-var paragraph = base.createElement('p');
+var paragraph = document.createElement('p');
 
 paragraph.innerHTML = 'Hello, world!';
