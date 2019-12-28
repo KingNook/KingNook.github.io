@@ -3,9 +3,11 @@ var pages = ['index', 'chess'];
 var navbar = document.createElement('ul');
 
 pages.forEach(function(e) {
-    let navitem = document.createElement('li').appendChild(document.createElement('a'));
-    navitem.setAttribute('href', '/'+e);
-    navitem.innerHTML = e;
+    let navitem = document.createElement('li');
+    let navlink = docment.createElement('a');
+    navlink.setAttribute('href', '/'+e);
+    navlink.innerHTML = e;
+    navitem.appendChild(navlink);
     navbar.appendChild(navitem);
 })
 
