@@ -1,5 +1,12 @@
-var paragraph = document.createElement('p');
+var pages = ['index', 'chess'];
 
-paragraph.innerHTML = 'Hello, world!';
+var navbar = document.createElement('ul');
 
-document.getElementById('base').appendChild(paragraph)
+pages.forEach(function(e) {
+    let navitem = document.createElement('li');
+    navitem.href = '/'+e;
+    navitem.innerHTML = e;
+    navbar.appendChild(navitem);
+})
+
+document.getElementById('navbar').appendChild(navbar);
