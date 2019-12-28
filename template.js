@@ -1,4 +1,4 @@
-import './classes.js'
+import {Page} from './classes.js'
 
 var pages = ['index', 'chess'];
 
