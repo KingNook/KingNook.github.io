@@ -1,7 +1,9 @@
 import {Page} from './classes.js'
 
+// Replace with json file for centralised page storage
 var pages = ['index', 'chess'];
 
+// Create navbar
 var navbar = document.createElement('ul');
 
 pages.forEach(function(e) {
