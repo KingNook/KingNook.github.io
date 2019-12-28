@@ -1,3 +1,5 @@
+import './classes.js'
+
 var pages = ['index', 'chess'];
 
 var navbar = document.createElement('ul');
