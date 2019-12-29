@@ -1,7 +1,7 @@
-import {Page} from './classes.js'
+import {pagelist} from './pages.js'
 
 // Replace with json file for centralised page storage
-var pages = ['index', 'chess'];
+var pages = pagelist;
 
 // Create navbar
 var navbar = document.createElement('ul');

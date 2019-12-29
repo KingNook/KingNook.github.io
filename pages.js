@@ -1,3 +1,3 @@
 import * as Classes from './classes.js'
 
-var pagelist = {};
+var pagelist = ['index', 'chess'];
