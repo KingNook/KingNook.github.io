@@ -9,8 +9,8 @@ var navbar = document.createElement('ul');
 pages.forEach(function(e) {
     let navitem = document.createElement('li');
     let navlink = document.createElement('a');
-    navlink.setAttribute('href', '/'+e);
-    navlink.innerHTML = e;
+    navlink.setAttribute('href', e.url);
+    navlink.innerHTML = e.name;
     navitem.appendChild(navlink);
     navbar.appendChild(navitem);
 })
