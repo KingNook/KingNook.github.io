@@ -8,4 +8,14 @@ pagenames.forEach(function(e) {
     pagelist.push(page);
 })
 
-console.log(pagelist)
+// INDEX
+{
+    let page = new Classes.Page('index', '/index');
+    pagelist.push(page);
+}
+
+// CHESS
+{
+    let page = new Classes.Page('chess', '/chess');
+    pagelist.push(page);
+}
