@@ -19,3 +19,10 @@ pagenames.forEach(function(e) {
     let page = new Classes.Page('chess', '/chess');
     pagelist.push(page);
 }
+
+// TEST (DELETE LATER)
+{
+    let page = new Classes.Page('test', '/test/test');
+    pagelist.push(page);
+}
+
