@@ -15,10 +15,4 @@ export var pagelist = new Array(0);
     pagelist.push(page);
 }
 
-// TEST (DELETE LATER)
-{
-    let page = new Classes.Page('test', '/test/test');
-    pagelist.push(page);
-}
-
 console.log(pagelist);
