@@ -14,8 +14,8 @@ var navbar = document.createElement('ul');
 navbar.className = 'nav-bar'
 
 // Navbar background color
-var sheet = document.querySelector('link[href="/css/navbar.css"]')
-sheet.insertRule('.nav-bar{ background-color:' + colors.orange + '; }');
+var ssheet = document.querySelector('link[href="/css/navbar.css"]').sheet
+ssheet.insertRule('.nav-bar{ background-color:' + colors.orange + '; }');
 
 var current_page = window.location.pathname;
 
