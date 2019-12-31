@@ -1,4 +1,6 @@
-var scriptspace = getElementbyId('scriptspace');
+var body = getElementbyId('body');
+
+var scriptspace = document.createElement('div');
 
 var scripts = [
     '/scripts/base.js',
@@ -13,3 +15,5 @@ scripts.forEach(function(e){
     scripttag.type = 'module';
     scriptspace.appendChild(scripttag);
 })
+
+body.appendChild(scriptspace);
