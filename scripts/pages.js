@@ -14,5 +14,3 @@ export var pagelist = new Array(0);
     let page = new Classes.Page('chess', '/games/chess');
     pagelist.push(page);
 }
-
-console.log(pagelist);
