@@ -1,3 +1,5 @@
+// SETS UP SCRIPT TAGS AND NOTHING ELSE
+
 var body = document.getElementById('body');
 
 var scriptspace = document.createElement('div');

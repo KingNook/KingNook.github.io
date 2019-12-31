@@ -2,6 +2,8 @@ import {pagelist} from '/scripts/pages.js';
 import {colors} from '/scripts/colors.js';
 
 // Create nav wrapper to reduce html file
+var body = document.getElementById('body');
+var navwrapper = document.createElement('div');
 
 
 // Replace with json file for centralised page storage
@@ -29,4 +31,5 @@ pages.forEach(function(e) {
     navbar.appendChild(navitem);
 })
 
-document.getElementById('navbar').appendChild(navbar);
+navwrapper.appendChild(navbar);
+body.appendChild(navwrapper);
