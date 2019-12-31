@@ -4,12 +4,6 @@
 ### Colour Scheme
 - Option 1
 
-HEX
-#7d00ff
-#ff7d00
-#00ff7d
+-- HEX #7d00ff #ff7d00 #00ff7d
 
-RGB
-rgb(125, 0, 255)
-rgb(255, 125, 0)
-rgb(0, 255, 125)
+-- RGB rgb(125, 0, 255) rgb(255, 125, 0) rgb(0, 255, 125)
