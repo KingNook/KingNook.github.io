@@ -1,4 +1,4 @@
-var body = document.getElementbyId('body');
+var body = document.getElementById('body');
 
 var scriptspace = document.createElement('div');
 
