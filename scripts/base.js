@@ -19,13 +19,13 @@ var current_page = window.location.pathname;
 pages.forEach(function(e) {
     let navitem = document.createElement('li');
     navitem.className = 'nav-item';
-    if(e.url == current_page) {
+    if(e.path == current_page) {
         navitem.className += 'active';
     }
 
     let navlink = document.createElement('a');
     navlink.className = 'nav-link';
-    navlink.setAttribute('href', e.url);
+    navlink.setAttribute('href', e.path);
     navlink.innerHTML = e.name;
     navitem.appendChild(navlink);
     navbar.appendChild(navitem);

@@ -1,6 +1,6 @@
 export class Page {
-    constructor(name, url) {
+    constructor(name, path) {
         this.name = name;
-        this.url = url;
+        this.path = path;
     }
 }
