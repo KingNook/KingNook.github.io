@@ -1,7 +1,18 @@
-// SETS UP SCRIPT TAGS AND NOTHING ELSE
-
+var head = document.getElementById('head');
 var body = document.getElementById('body');
 
+// favicon
+var favicon = document.createElement('link');
+favicon.rel = 'shortcut icon';
+favicon.href = '/images/favicon.ico';
+favicon.type = 'image/x-icon';
+
+// stylesheet
+var styles = document.createElement('link');
+styles.rel = 'stylesheet';
+styles.href = '/css/base.css';
+
+// scripts
 var scriptspace = document.createElement('div');
 
 var scripts = [
