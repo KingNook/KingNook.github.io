@@ -1,6 +1,9 @@
 import {pagelist} from '/scripts/pages.js';
 import {colors} from '/scripts/colors.js';
 
+// Create nav wrapper to reduce html file
+
+
 // Replace with json file for centralised page storage
 var pages = pagelist;
 
