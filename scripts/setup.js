@@ -8,9 +8,20 @@ favicon.href = '/images/favicon.ico';
 favicon.type = 'image/x-icon';
 
 // stylesheet
-var styles = document.createElement('link');
-styles.rel = 'stylesheet';
-styles.href = '/css/base.css';
+var stylespace = document.createElement('div');
+
+var styles = [
+    '/css/base.css',
+    '/css/navbar.css'
+];
+
+styles.forEach(function(e){
+    let styletag = document.createElement('link');
+    styletag.rel = 'stylesheet';
+    styletag.href = e;
+    stylespace.appendChild(styletag);
+});
+head.appendChild(stylespace);
 
 // scripts
 var scriptspace = document.createElement('div');
