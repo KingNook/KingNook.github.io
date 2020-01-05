@@ -30,7 +30,7 @@ var scripts = [
     '/scripts/base.js',
     '/scripts/classes.js',
     '/scripts/colors.js',
-    '/scripts/pages.js',
+    '/scripts/pages.js'
 ];
 
 scripts.forEach(function(e){
