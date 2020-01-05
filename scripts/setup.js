@@ -11,8 +11,7 @@ favicon.type = 'image/x-icon';
 var stylespace = document.createElement('div');
 
 var styles = [
-    '/css/base.css',
-    '/css/navbar.css'
+    '/css/base.css'
 ];
 
 styles.forEach(function(e){
