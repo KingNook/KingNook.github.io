@@ -7,7 +7,7 @@ favicon.rel = 'shortcut icon';
 favicon.href = '/images/favicon.ico';
 favicon.type = 'image/x-icon';
 
-// stylesheet
+// stylesheet - UNNECESSARY (use- @import)
 var stylespace = document.createElement('div');
 
 var styles = [
