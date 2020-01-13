@@ -28,7 +28,6 @@ var scriptspace = document.createElement('div');
 var scripts = [
     '/scripts/base.js',
     '/scripts/classes.js',
-    '/scripts/colors.js',
     '/scripts/pages.js'
 ];
 

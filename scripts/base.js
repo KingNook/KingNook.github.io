@@ -1,5 +1,4 @@
 import {pagelist} from '/scripts/pages.js';
-import {colors} from '/scripts/colors.js';
 
 // Create nav wrapper to reduce html file
 var body = document.getElementById('body');
