@@ -12,10 +12,6 @@ var pages = pagelist;
 var navbar = document.createElement('ul');
 navbar.className = 'nav-bar'
 
-// Navbar background color
-var ssheet = document.querySelector('link[href="/css/navbar.css"]').sheet
-ssheet.insertRule('.nav-bar{ background-color:' + colors.orange + '; }');
-
 var current_page = window.location.pathname;
 
 pages.forEach(function(e) {
