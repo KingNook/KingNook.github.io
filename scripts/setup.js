@@ -4,7 +4,7 @@ var body = document.getElementById('body');
 // favicon
 var favicon = document.createElement('link');
 favicon.rel = 'shortcut icon';
-favicon.href = '/images/favicon.ico';
+favicon.href = '/assets/favicon.ico';
 favicon.type = 'image/x-icon';
 head.appendChild(favicon);
 
