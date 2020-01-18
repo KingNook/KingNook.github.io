@@ -6,6 +6,7 @@ var favicon = document.createElement('link');
 favicon.rel = 'shortcut icon';
 favicon.href = '/images/favicon.ico';
 favicon.type = 'image/x-icon';
+head.appendChild(favicon);
 
 // stylesheet - UNNECESSARY (use- @import)
 var stylespace = document.createElement('div');
