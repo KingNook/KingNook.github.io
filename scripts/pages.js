@@ -1,6 +1,5 @@
 import * as Classes from './classes.js'
 
-var pagenames = ['index', 'chess'];
 export var pagelist = new Array(0);
 
 // INDEX
