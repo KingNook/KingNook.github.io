@@ -14,3 +14,9 @@ export var pagelist = new Array(0);
     let page = new Classes.Page('chess', '/games/chess');
     pagelist.push(page);
 }
+
+// CONSOLE (For Text Adventure Games)
+{
+    let page = new Classes.Page('console', '/games/console');
+    pagelist.push(page);
+}
