@@ -19,3 +19,9 @@ export var pagelist = new Array(0);
     let page = new Classes.Page('console', '/games/console');
     pagelist.push(page);
 }
+
+// CANVAS SHENENIGANS
+{
+    let page = new Classes.Page('canvas', '/canvas');
+    pagelist.push(page)
+}
